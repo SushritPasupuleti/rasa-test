@@ -17,6 +17,11 @@ slots:
 responses:
   utter_greet:
   - text: "{username} nice to meet you"
+    buttons:
+    - title: "great"
+      payload: "great"
+    - title: "super sad"
+      payload: "super sad"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -24,6 +29,7 @@ responses:
 
   utter_did_that_help:
   - text: "Did that help you?"
+  
 
   utter_happy:
   - text: "Great, carry on!"
